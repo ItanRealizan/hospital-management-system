@@ -1,0 +1,13 @@
+/* custom.css */
+.header {
+    border-bottom: 2px solid #007bff; /* A blue border to match the primary color */
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.header-link {
+    margin-left: 10px;
+}

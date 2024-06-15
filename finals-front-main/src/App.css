@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif; /* Change to your preferred font stack */
+  color: #333; /* Dark text color */
+}
+
+/* App Header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+}
+
+/* Link Styles */
+.App-link {
+  color: #61dafb; /* Light blue for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.App-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Logo */
+.logo {
+  font-size: 18px;
+  font-style: italic;
+  color: #00c; /* Blue for logo */
+}
+
+/* Home Options */
+.home-options {
+  margin-top: 240px;
+  padding: 10px 20px;
+  background-color: rgba(30, 30, 30, 0.3);
+  border-radius: 10px;
+  font-family: 'Calibri', Arial, sans-serif; /* Change font family */
+  color: white;
+}
+
+.home-options button {
+  margin: 20px;
+  padding: 15px 30px; /* Adjust button padding */
+  color: white;
+  background-color: #33f; /* Blue background */
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-family: 'Calibri', Arial, sans-serif; /* Change font family */
+}
+
+.home-options button:hover {
+  background-color: #3388ff; /* Darker blue on hover */
+}
+
+/* Table Styles */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #61dafb; /* Light blue header */
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray background for odd rows */
+}
+
+/* Sidebar */
+.sidebar {
+  height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+}
+
+.nav.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-link {
+  text-align: center;
+  padding: 10px 0;
+  color: #333; /* Dark text color */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
